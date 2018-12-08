@@ -55,7 +55,8 @@ namespace BrowserTest
         [TestInitialize]
         public void SetUp()
         {
-
+            driver = new ChromeDriver();
+            driver.Navigate().GoToUrl("http://localhost:33319/");
         }
 
         private IWebDriver driver;
@@ -63,8 +64,7 @@ namespace BrowserTest
         [TestMethod]
         public void TestMethod1()
         {
-            driver = new ChromeDriver();
-            driver.Navigate().GoToUrl("http://localhost:33319/");
+            
 
             var homepage = new HomePage(driver);
             Assert.AreEqual("ASP.NET", homepage.GetPageTitle());

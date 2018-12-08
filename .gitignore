@@ -3,3 +3,12 @@
 ################################################################################
 
 /ApiTest/ApiTest/bin/Debug
+/ApiTest/ApiTest/obj/Debug
+/ApiTest/BrowserTest/bin/Debug
+/ApiTest/BrowserTest/obj/Debug
+/ApiTest/Console/bin/Debug
+/ApiTest/Console/obj/Debug
+/ApiTest/FileSystem/bin/Debug
+/ApiTest/FileSystem/obj/Debug
+/ApiTest/packages/Selenium.Support.3.141.0/lib
+/ApiTest/packages
